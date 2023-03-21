@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+}
+
+:root{
+    --primary-color:#98fb98;
+    --label-font-size:18px ;
+    --font-family:'Lora', serif;
+}
+
+label{
+font-size: var(--label-font-size);
+font-family: var(--font-family);
+color:var(--primary-color);
+}
+::placeholder{
+    text-align: center;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Javascript conditions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container py-5 my-5 bg-danger">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div class="javascript-conditions text-center">
+                 <h1 class="display-3 fs-2 fw-bold text-center text-light"> Javascript conditions:</h1>
+                    <div class="ifelse-conditions mt-2 border p-3">
+                        <h2 class="display-4 fs-3 fw-bold text-center text-light"> If and Else conditions:</h2>
+                        <label for="Number">Enter the Number:</label>
+                        <input type="number" id="textifelse" placeholder="Enter the Number to check the condition is true or False" class="form-control text-center">
+                        <p id="demo" class="bg-primary text-light mt-1 fw-bold"></p>
+                        <p id="demo1" class="bg-primary text-light mt-1 fw-bold"></p>
+                        <button class="btn btn-success mt-1 mx-auto" onclick="ifelsecondition()">If and else condition</button>
+                    </div>
+            
+                  <div class="elseif-conditions mt-2 border p-3">
+                    <h2 class="display-4 fs-3 fw-bold text-center text-light"> If else and Elseif conditions:</h2>
+                    <label for="Number">Enter the Number:</label>
+                    <input type="number" id="textelseif" placeholder="Enter the Number to check the condition is true or False" class="form-control text-center">
+                    <p id="demo2" class="bg-primary text-light mt-1 fw-bold"></p>
+                    <p id="demo3" class="bg-primary text-light mt-1 fw-bold"></p>
+                    <p id="demo4" class="bg-primary text-light mt-1 fw-bold"></p>
+                    <button class="btn btn-success mt-1 mx-auto" onclick="elseifcondition()">If else and elseif condition</button>
+                </div>
+
+                <div class="for loop-conditions mt-2 border p-3">
+                    <h2 class="display-4 fs-3 fw-bold text-center text-light"> For Loop conditions:</h2>
+                    <h5 class="h5 text-dark fw-bold">Sum of Numbers Using For Loop:</h5>
+                    <label for="number">Enter the number:</label>
+                    <input type="number"  id="num" placeholder="Enter the Total Number you want to Sum" class="form-control text-center">
+                    <p id="demo5" class="bg-primary text-light mt-1 fw-bold"></p>
+                    <p id="demo6" class="bg-primary text-light mt-1 fw-bold"></p>
+                    <p id="demo7" class="bg-primary text-light mt-1 fw-bold"></p>
+                    <button class="btn btn-success mt-1" onclick="natural()">Natural</button>    
+                     <button class="btn btn-success mt-1" onclick="even()">Even</button>
+                    <button class="btn btn-success mt-1" onclick="odd()">Odd</button>
+                </div>
+
+                <div class="forIn-conditions mt-2 border p-3">
+                    <h2 class="display-4 fs-3 fw-bold text-center text-light"> For IN conditions:</h2>
+                    <label for="Number">Enter the Number:</label>
+                    <input type="text" id="textforin" placeholder="Enter the Number to check the ForIn condition is true or False" class="form-control text-center">
+                    <p id="demo8" class="bg-primary text-light mt-1 fw-bold"></p>
+                    <button class="btn btn-success mt-1 mx-auto" onclick="forincondition()">ForIN condition</button>
+                </div>
+
+                <div class="foroff-conditions mt-2 border p-3">
+                    <h2 class="display-4 fs-3 fw-bold text-center text-light"> For OFF conditions:</h2>
+                    <label for="String">Enter the Programming  Language:</label>
+                    <input type="text" id="textforoff" placeholder="Enter the Programming language to check the ForOFF condition is true or False" class="form-control text-center">
+                    <p id="demo9" class="bg-primary text-light mt-1 fw-bold"></p>
+                    <button class="btn btn-success mt-1 mx-auto" onclick="foroffcondition()">ForOFF condition</button>
+                </div>
+
+                <div class="while loop-conditions mt-2 border p-3">
+                    <h2 class="display-4 fs-3 fw-bold text-center text-light"> while Loop conditions:</h2>
+                    <h5 class="h5 text-dark fw-bold">To find a Factorial number:</h5>
+                    <label for="number">Enter the number:</label>
+                    <input type="number"  id="Factorial" placeholder="Enter the  Number to find Factorial or not" class="form-control text-center">
+                    <p id="demo10" class="bg-primary text-light mt-1 fw-bold"></p>
+                    <button class="btn btn-success mt-1" onclick="factorial()">Factorial method</button>
+                    <h5 class="h5 mt-2 text-dark fw-bold">To find a Fibonacci number:</h5>
+                    <label for="number" class="mt-1">Enter the  number:</label>
+                    <input type="number"  id="Fibonacci" placeholder="Enter the  Number to find Fibonacci series or not" class="form-control text-center">
+                    <p id="demo11" class="bg-primary text-light mt-1 fw-bold"></p>
+                    <button class="btn btn-success mt-1" onclick="fibonacci()">Fibonacci method</button>
+                </div>
+                <div class="switch case and default conditions mt-2 border p-3">
+                    <h2 class="display-4 fs-3 fw-bold text-center text-light"> Switch case and default conditions:</h2>
+                    <label for="Grade">Enter the Grade:</label>
+                    <input type="number" id="textswitch" placeholder="Enter the grade to check the switch case and default condition is true or False" class="form-control text-center">
+                    <p id="demo12" class="bg-primary text-light mt-1 fw-bold"></p>
+                    <button class="btn btn-success mt-1 mx-auto" onclick="switchcase()">Switch case condition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js" ></script>
+</body>
+</html>
